@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+      "vibranium_technologies:vibranium_block",
+    "vibranium_technologies:deepslate_vibranium_ore",
+    "vibranium_technologies:raw_vibranium_block"
+  ]
+}

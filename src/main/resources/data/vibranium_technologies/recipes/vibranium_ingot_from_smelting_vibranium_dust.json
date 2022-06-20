@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "vibranium_technologies:vibranium_dust"
+  },
+  "result": "vibranium_technologies:vibranium_ingot",
+  "experience": 2.0,
+  "cookingtime": 390
+}

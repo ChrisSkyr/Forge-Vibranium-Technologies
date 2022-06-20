@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "vibranium_technologies:item/vibranium_hoe"
+  }
+}

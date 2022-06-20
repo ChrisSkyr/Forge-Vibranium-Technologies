@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "vibranium_technologies:deepslate_vibranium_ore"
+  },
+  "result": "vibranium_technologies:vibranium_ingot",
+  "experience": 2.5,
+  "cookingtime": 300
+}

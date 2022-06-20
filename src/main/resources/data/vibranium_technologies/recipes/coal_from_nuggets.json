@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "vibranium_technologies:coal_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal"
+  }
+}
