@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "vibranium_technologies:vibranium_pickaxe"
+    },
+    {
+      "item": "vibranium_technologies:vibranium_shovel"
+    },
+    {
+      "item": "vibranium_technologies:vibranium_axe"
+    },
+    {
+      "item": "vibranium_technologies:vibranium_hoe"
+    },
+    {
+      "item": "vibranium_technologies:vibranium_sword"
+    },
+    {
+      "item": "vibranium_technologies:vibranium_helmet"
+    },
+    {
+      "item": "vibranium_technologies:vibranium_chestplate"
+    },
+    {
+      "item": "vibranium_technologies:vibranium_leggings"
+    },
+    {
+      "item": "vibranium_technologies:vibranium_boots"
+    }
+  ],
+  "result": "vibranium_technologies:vibranium_ingot",
+  "experience": 2.0,
+  "cookingtime": 400
+}

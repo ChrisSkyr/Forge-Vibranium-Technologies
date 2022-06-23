@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "vibanium_technologis:vibranium_ingot"
+      "tag": "forge:ingots/vibranium"
     }
   ],
   "result": {

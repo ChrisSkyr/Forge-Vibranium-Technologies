@@ -2,6 +2,7 @@ package com.chrisskyr.vibranium_technologies.item;
 
 import com.chrisskyr.vibranium_technologies.VibraniumTechnologies;
 import com.chrisskyr.vibranium_technologies.item.custom.CoalNuggetItem;
+import com.chrisskyr.vibranium_technologies.item.custom.ModArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,16 +16,20 @@ public class ModItems {
 
 
 
-
+//                                       --ITEMS--
     public static final RegistryObject<Item> RAW_VIBRANIUM = ITEMS.register("raw_vibranium",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
 
     public static final RegistryObject<Item> VIBRANIUM_INGOT = ITEMS.register("vibranium_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+
     public static final RegistryObject<Item> VIBRANIUM_NUGGET = ITEMS.register("vibranium_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
-    public static final RegistryObject<Item> VIBRANIUM_DUST = ITEMS.register("vibranium_dust",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+
+    public static final RegistryObject<Item> COAL_NUGGET = ITEMS.register("coal_nugget",
+            () -> new CoalNuggetItem(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+
+    //                                    --TOOLS--
 
     public static final RegistryObject<Item> VIBRANIUM_SWORD = ITEMS.register("vibranium_sword",
             () -> new SwordItem(ModTiers.VIBRANIUM,2,3f,
@@ -46,11 +51,11 @@ public class ModItems {
             () -> new HoeItem(ModTiers.VIBRANIUM,0,0f,
                     new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
 
-    public static final RegistryObject<Item> COAL_NUGGET = ITEMS.register("coal_nugget",
-            () -> new CoalNuggetItem(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    //                                     --ARMOR--
+
 
     public static final RegistryObject<Item> VIBRANIUM_HELMET = ITEMS.register("vibranium_helmet",
-            () -> new ArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.HEAD
+            () -> new ModArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.HEAD
                     ,new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
 
     public static final RegistryObject<Item> VIBRANIUM_CHESTPLATE = ITEMS.register("vibranium_chestplate",
@@ -62,8 +67,8 @@ public class ModItems {
                     ,new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
 
     public static final RegistryObject<Item> VIBRANIUM_BOOTS = ITEMS.register("vibranium_boots",
-            () -> new ArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.FEET
-                    ,new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+            () -> new ArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
 
 
 

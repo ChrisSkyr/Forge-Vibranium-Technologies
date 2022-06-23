@@ -1,5 +1,6 @@
 {
   "type": "minecraft:blasting",
+  "group": "vibranium_ingot",
   "ingredient": {
     "item": "vibranium_technologies:raw_vibranium"
   },

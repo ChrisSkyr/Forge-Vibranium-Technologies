@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "vibranium_technologies:raw_vibranium"
+    },
+    "title": {
+      "translate": "advancements.vibranium_technologies.main.root"
+    },
+    "description": {
+      "translate": "advancements.vibranium_technologies.main.root.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "vibranium_technologies:textures/block/vibranium_block.png"
+  },
+  "criteria": {
+    "raw_vibranium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:raw_vibranium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raw_vibranium"
+    ]
+  ]
+}

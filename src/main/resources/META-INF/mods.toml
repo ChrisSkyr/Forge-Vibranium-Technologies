@@ -29,13 +29,13 @@ displayName="Vibranium Technologies " #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks Christo Skyrgianoglou, Antonis Skyrgianoglou and Christos Skyrgianoglou who is the leader of the development " #optional
+credits="Thanks Antonis Skyrgianoglou for the awesome arts! " #optional
 # A text field displayed in the mod UI
-authors="Christos Skyrgianoglou, Antonis Skyrgianoglou, Vasilis Skyrgianoglou and Christos Skyrgianoglou(Development Leader)" #optional
+authors="Christos Skyrgianoglou, Antonis Skyrgianoglou and Christos Skyrgianoglou(Development Leader)" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 
-A mod which adds machines powered by the powerfull vibranium.
+Vibranium Technologies is a mod which has as core power the vibranium ore.
 
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
