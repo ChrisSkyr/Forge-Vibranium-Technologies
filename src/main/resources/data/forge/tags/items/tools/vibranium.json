@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "vibranium_technologies:vibranium_sword",
+    "vibranium_technologies:vibranium_pickaxe",
+    "vibranium_technologies:vibranium_axe",
+    "vibranium_technologies:vibranium_shovel",
+    "vibranium_technologies:vibranium_hoe"
+
+  ]
+}

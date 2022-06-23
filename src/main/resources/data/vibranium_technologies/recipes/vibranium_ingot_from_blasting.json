@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "vibranium_technologies:iron_pickaxe"
+    },
+    {
+      "item": "vibranium_technologies:iron_shovel"
+    },
+    {
+      "item": "vibranium_technologies:iron_axe"
+    },
+    {
+      "item": "vibranium_technologies:iron_hoe"
+    },
+    {
+      "item": "vibranium_technologies:iron_sword"
+    },
+    {
+      "item": "vibranium_technologies:iron_helmet"
+    },
+    {
+      "item": "vibranium_technologies:iron_chestplate"
+    },
+    {
+      "item": "vibranium_technologies:iron_leggings"
+    },
+    {
+      "item": "vibranium_technologies:iron_boots"
+    }
+  ],
+  "result": "vibranium_technologies:iron_ingot",
+  "experience": 2.0,
+  "cookingtime": 200
+}

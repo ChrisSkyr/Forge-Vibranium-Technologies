@@ -1,6 +1,5 @@
 {
   "item.vibranium_technologies.raw_vibranium": "Raw Vibranium",
-  "item.vibranium_technologies.vibranium_dust": "Vibranium Dust",
   "item.vibranium_technologies.vibranium_ingot": "Vibranium Ingot",
   "item.vibranium_technologies.vibranium_nugget": "Vibranium Nugget",
   "item.vibranium_technologies.coal_nugget": "Coal Nugget",
@@ -20,7 +19,12 @@
   "block.vibranium_technologies.deepslate_vibranium_ore": "Deepslate Vibranium Ore",
   "block.vibranium_technologies.raw_vibranium_block": "Raw Vibranium Block",
 
-  "itemGroup.vibranium_technologies_tab": "Vibranium Technologies"
+  "itemGroup.vibranium_technologies_tab": "Vibranium Technologies",
+
+  "advancements.vibranium_technologies.main.root": "Vibranium Technologies",
+  "advancements.vibranium_technologies.main.root.desc": "The Power is stored in the Vibranium!",
+  "advancements.vibranium_technologies.main.obtain_vibranium_pickaxe.tittle": "The fastest Pickaxe",
+  "advancements.vibranium_technologies.main.obtain_vibranium_pickaxe.desc": "Craft a Vibranium Pickaxe"
 }
 
 

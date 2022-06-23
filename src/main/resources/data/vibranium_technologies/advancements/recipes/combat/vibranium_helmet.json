@@ -1,0 +1,34 @@
+{
+  "parent": "vibranium_technologies:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vibranium_technologies:vibranium_helmet"
+    ]
+  },
+  "criteria": {
+    "has_vibranium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vibranium_technologies:vibranium_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vibranium_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

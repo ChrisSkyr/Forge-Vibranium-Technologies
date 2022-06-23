@@ -1,0 +1,198 @@
+{
+  "parent": "vibranium_technologies:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vibranium_technologies:vibranium_ingot_from_blasting"
+    ]
+  },
+  "criteria": {
+    "has_vibranium_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_hoe"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_boots"
+            ]
+          }
+        ]
+      }
+    },
+    "has_vibranium_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:vibranium_horse_armor"
+            ]
+          }
+        ]
+      }
+    },
+    "has_chainmail_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:chainmail_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "has_chainmail_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:chainmail_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "has_chainmail_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:chainmail_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "has_chainmail_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vibranium_technologies:chainmail_boots"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vibranium_technologies:vibranium_ingot_from_blasting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vibranium_pickaxe",
+      "has_vibranium_shovel",
+      "has_vibranium_axe",
+      "has_vibranium_hoe",
+      "has_vibranium_sword",
+      "has_vibranium_helmet",
+      "has_vibranium_chestplate",
+      "has_vibranium_leggings",
+      "has_vibranium_boots",
+      "has_the_recipe"
+    ]
+  ]
+}
